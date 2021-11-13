@@ -32,7 +32,14 @@
             top: 50%;
             left: 50%;
             transform: translateX(-50%) translateY(-50%);
-       }
+            border-radius: 30%;
+        }
+        .main h1{
+            text-align: center;
+            color: gray;
+            text-transform: uppercase;
+            }
+        
        .bg{
           background: linear-gradient(to right, rgb(4, 43, 66),rgb(172, 114, 117));
           height: 100%;
