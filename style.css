@@ -1,0 +1,52 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container{
+        top: 50%;
+        left: 45%;
+        transform: translateX(-30%) translateY(-30%);
+        position: absolute;
+        background: transparent;
+    }
+       .button{
+              width:50;
+              height:50;
+              font-size:25;
+              margin: 2;
+              cursor: pointer;
+              background: grey;
+              border:none;
+              color: white;
+       }
+       .textview{
+                width:217;
+                margin:5;
+                font-size: 25;
+                padding:5;
+                border: none;
+       }
+       .main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+       }
+       .bg{
+          background: linear-gradient(to right, rgb(4, 43, 66),rgb(172, 114, 117));
+          height: 100%;
+       }
+       .button:active{
+            background: rgb(54, 54, 54);
+       }
+        
+       .button:hover{
+        width: 50;
+        height: 50;
+        font-size: 30;
+        border: none;
+        color: black;
+        cursor: pointer;
+        background: rgb(173, 162, 162);
+       }
